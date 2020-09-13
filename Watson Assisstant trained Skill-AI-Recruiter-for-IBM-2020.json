@@ -1,0 +1,2621 @@
+{
+  "intents": [
+    {
+      "intent": "email_address",
+      "examples": [
+        {
+          "text": "@gmail.com",
+          "mentions": [
+            {
+              "entity": "correct_email",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "@yahoo.com",
+          "mentions": [
+            {
+              "entity": "correct_email",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "@hotmail.com",
+          "mentions": [
+            {
+              "entity": "correct_email",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "time_2",
+      "examples": [
+        {
+          "text": "two year",
+          "mentions": [
+            {
+              "entity": "time_2",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2 year",
+          "mentions": [
+            {
+              "entity": "time_2",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "hello"
+        },
+        {
+          "text": "continue"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "ya"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hey there"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "why not!"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ok",
+      "examples": [
+        {
+          "text": "okk",
+          "mentions": [
+            {
+              "entity": "ok",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "okhe",
+          "mentions": [
+            {
+              "entity": "ok",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ok",
+          "mentions": [
+            {
+              "entity": "ok",
+              "location": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no_input",
+      "examples": [
+        {
+          "text": "No, Thanks.",
+          "mentions": [
+            {
+              "entity": "no",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "no",
+          "mentions": [
+            {
+              "entity": "no",
+              "location": [
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "later",
+          "mentions": [
+            {
+              "entity": "no",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "not",
+          "mentions": [
+            {
+              "entity": "no",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "no, thankyou.",
+          "mentions": [
+            {
+              "entity": "no",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i don't have",
+          "mentions": [
+            {
+              "entity": "no",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "education",
+      "examples": [
+        {
+          "text": "M.tech",
+          "mentions": [
+            {
+              "entity": "high_education",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PhD (postgraduate)",
+          "mentions": [
+            {
+              "entity": "high_education",
+              "location": [
+                0,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Second University Degree (Master's)",
+          "mentions": [
+            {
+              "entity": "high_education",
+              "location": [
+                0,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Secondary School",
+          "mentions": [
+            {
+              "entity": "high_education",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "MTech (Master of Engineering)",
+          "mentions": [
+            {
+              "entity": "high_education",
+              "location": [
+                0,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "unvalid_name",
+      "examples": [
+        {
+          "text": "8",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "5",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "6",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "4",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "3",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "0",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "7",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "!@#$%^&*( )_+}{:\"?><[];'./,-=",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "9",
+          "mentions": [
+            {
+              "entity": "fake_name",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "time_1",
+      "examples": [
+        {
+          "text": "one year",
+          "mentions": [
+            {
+              "entity": "time_1",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1 year",
+          "mentions": [
+            {
+              "entity": "time_1",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sector_2",
+      "examples": [
+        {
+          "text": "JavaScript,Java,React"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "collect_name",
+      "examples": [
+        {
+          "text": "himanshu",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "call me sumit",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "call me abhay",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am suresh",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "atul kumar"
+        },
+        {
+          "text": "kunal",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ankur",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its shayam",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Its kunal",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is sumit",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its Madhuri aurora",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its abhishek",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Amisha",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "me anuj",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                3,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is harry",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am petter",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "john",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "alex",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is anita",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am shruti",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is seema",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its thakur",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its pulkit",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its ramu",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its sundar",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is shyam",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is pulkit",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "abhay saini",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "people call me james",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                15,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "tushar",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ankit",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "tina",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is abhay saini",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am abhay",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "here ritu",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                5,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "well its abhay",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                9,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its pyush",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "called me as abhay",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                13,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "call me as abhay",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "its abhay saini",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my self rahul",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am rahul",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am summit",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is rama",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "anjali",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "anshika",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am ashutosh",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                5,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is parul",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "anurag sharma",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Preetam",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Rahul",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sector_2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "full stack developer",
+          "synonyms": [
+            "stack"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "skill_sector2_5",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "React",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "skill_sector3_3",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "python",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ok",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ok",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "okhe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "okk",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Greetings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "good evening",
+          "synonyms": [
+            "god even",
+            "gevn",
+            "gd evn",
+            "evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good afternoon",
+          "synonyms": [
+            "god aftn",
+            "god noon",
+            "gud afternoon ",
+            "afternoon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good morning",
+          "synonyms": [
+            "god mor",
+            "gm",
+            "good mor",
+            "gd morn",
+            "morning"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "skill_sector1_1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "R Programming",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "skill_sector3_2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "c++",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "correct_email",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "@hotmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "@yahoo.com",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "skill_sector1_2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hadoop Platform",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "skill_sector2_3",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "JavaScript",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No, Thanks.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no, thankyou.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fresher",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "i don't have",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "later",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "not",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "time_1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1 year",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "one year",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "skill_sector1_4",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Data Visualization",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "skill_sector2_4",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Java",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fake_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "8",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "!#$%^&*( )_+}{:\"?><[];'./,",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "0",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "high_education",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MTech (Master of Engineering)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PhD (postgraduate)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Second University Degree (Master's)",
+          "synonyms": [
+            "masters"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "skill_sector3_1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "C#",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sector_1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Data scientists",
+          "synonyms": [
+            "scientists"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "skills",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "skills",
+          "synonyms": [
+            "Programming languages",
+            "Software proficiency",
+            "Project management",
+            "Data analysis"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sector_3",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "software developer",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "low_education",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "BTech",
+          "synonyms": [
+            "Bachelor of Technology",
+            "12th",
+            "10th",
+            " B.A. degrees"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "person_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "harry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "himanshu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "james",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jerry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "john",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kunal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madhuri",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "parul",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "petter",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Preetam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "puja",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pulkit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pyush",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rahul",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rama",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ramu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ritu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "seema",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sharma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shayam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shruti",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shyam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sumit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "summit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sundar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "suresh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sushma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Amisha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "alex",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "abhishek",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "abhay",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "watson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vedant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tushar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ankit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anshika",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anuj",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anurag",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ashutosh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anjali",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ankur",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "time_2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2 year",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "two year",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "no match ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! we are hiring more skilled person. Thank you for your interest and for providing us with information about you.\n\nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1593874284034",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_25_1593919810438",
+      "previous_sibling": "node_24_1593919751979"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you! we will reach you out."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1593874284034",
+      "disabled": true,
+      "conditions": "@time_1",
+      "dialog_node": "response_9_1593886710358",
+      "previous_sibling": "node_25_1593919810438"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1593874284034",
+      "variable": "$time_1",
+      "dialog_node": "slot_4_1593886550064",
+      "previous_sibling": "response_8_1593886731581"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1593874284034",
+      "disabled": true,
+      "dialog_node": "response_8_1593886731581",
+      "previous_sibling": "response_9_1593886710358"
+    },
+    {
+      "type": "standard",
+      "title": "education",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Got it! Thank you for your interest and for providing us with information about you. we will inform our recruiters.\n\"Please fill the application form by clicking side tab.\"\n\nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1593874284034",
+      "conditions": "@high_education",
+      "dialog_node": "node_24_1593919751979"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593888178452",
+      "disabled": true,
+      "dialog_node": "response_8_1593888178452",
+      "previous_sibling": "response_7_1593888178452"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you! we will reach you out."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593888178452",
+      "disabled": true,
+      "conditions": "@time_1",
+      "dialog_node": "response_7_1593888178452",
+      "previous_sibling": "node_23_1593919657306"
+    },
+    {
+      "type": "standard",
+      "title": "no match",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! we are hiring more skilled person. Thank you for your interest and for providing us with information about you.\n\nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593888178452",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_23_1593919657306",
+      "previous_sibling": "node_22_1593919602011"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1593888178452",
+      "variable": "$time_1",
+      "dialog_node": "slot_4_1593888178452",
+      "previous_sibling": "response_8_1593888178452"
+    },
+    {
+      "type": "standard",
+      "title": "education ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Got it! Thank you for your interest and for providing us with information about you. we will inform our recruiters.\n\"Please fill the application form by clicking side tab.\"\n \nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593888178452",
+      "conditions": "#education || @high_education",
+      "dialog_node": "node_22_1593919602011"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1593418352863",
+      "variable": "$sector_1",
+      "dialog_node": "slot_2_1593859207048",
+      "previous_sibling": "response_3_1593859313337"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Now tell me about your skills for $sector_11.R Programming 2.Hadoop Platform3.Data Visualization"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593418352863",
+      "disabled": true,
+      "conditions": "@sector_1",
+      "dialog_node": "response_3_1593859313337",
+      "previous_sibling": "node_6_1593860058917"
+    },
+    {
+      "type": "standard",
+      "title": "for sector_1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok! Do you have any industrial experience ? If yes, please mention year of experience?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593418352863",
+      "conditions": "@skill_sector1_1 || @skill_sector1_2 || @skill_sector1_4",
+      "dialog_node": "node_6_1593860058917"
+    },
+    {
+      "type": "standard",
+      "title": "says 2 year",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Got it! Thank you for your interest and for providing us with information about you. we will inform our recruiters.\n\"Please fill the application form by clicking side tab.\"\n\nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593888178446",
+      "conditions": "@time_2",
+      "dialog_node": "node_3_1593888178452",
+      "previous_sibling": "node_2_1593888178452"
+    },
+    {
+      "type": "standard",
+      "title": "says 1 year",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok! I would like to ask which of the highest education level you have completed?\n1. Master of Engineering\n2. PhD (postgraduate)\n3. Second University Degree (Master's)\n\nIf none, please reply \"no\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593888178446",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@time_1 || #no_input || @no",
+      "dialog_node": "node_2_1593888178452"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1593859207048",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1593859207065",
+      "previous_sibling": "handler_10_1593859207065"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1593859207048",
+      "context": {
+        "sector_1": "@sector_1"
+      },
+      "conditions": "@sector_1",
+      "event_name": "input",
+      "dialog_node": "handler_10_1593859207065"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi There! I'm Watson, your job assistant. Can i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "@ok",
+      "dialog_node": "response_6_1593968265074",
+      "previous_sibling": "response_5_1592987989415"
+    },
+    {
+      "type": "slot",
+      "parent": "Welcome",
+      "variable": "$no_input",
+      "dialog_node": "slot_8_1592987938679",
+      "previous_sibling": "response_6_1593968265074"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi There! I'm Watson, your job assistant. Can i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "welcome",
+      "dialog_node": "response_5_1592987989415"
+    },
+    {
+      "type": "standard",
+      "title": "says 2 year",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Got it! Thank you for your interest and for providing us with information about you. we will inform our recruiters.\n\"Please fill the application form by clicking side tab.\"\n\nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1593917094839",
+      "conditions": "@time_2",
+      "dialog_node": "node_13_1593917094844",
+      "previous_sibling": "node_12_1593917094844"
+    },
+    {
+      "type": "standard",
+      "title": "says 1 year",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok! I would like to ask which of the highest education level you have completed?\n1. Master of Engineering\n2. PhD (postgraduate)\n3. Second University Degree (Master's)\n\nIf none, please reply \"no\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1593917094839",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@time_1 || #no_input || @no",
+      "dialog_node": "node_12_1593917094844"
+    },
+    {
+      "type": "standard",
+      "title": " job career opportunity for sector 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Now tell me about your skills for @sector_2\n1. JavaScript\n2. Java\n3. React"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593330898861",
+      "conditions": "@sector_2",
+      "dialog_node": "node_1_1593887761541",
+      "previous_sibling": "node_9_1593418352863"
+    },
+    {
+      "type": "standard",
+      "title": " job career opportunity for sector 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Now tell me about your skills for @sector_3\n1. C# \n2. C++\n3. Python"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593330898861",
+      "conditions": "@sector_3",
+      "dialog_node": "node_3_1593888569678",
+      "previous_sibling": "node_1_1593887761541"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593330898861",
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1593888569678",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1593330898861",
+      "variable": "$correct_email",
+      "dialog_node": "slot_3_1593334570380",
+      "previous_sibling": "response_4_1593338095609"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you. what type of job career opportunity are you currently seeking ?",
+            "options": [
+              {
+                "label": "Business services",
+                "value": {
+                  "input": {
+                    "text": "sector"
+                  }
+                }
+              },
+              {
+                "label": " Information technology",
+                "value": {
+                  "input": {
+                    "text": "sector"
+                  }
+                }
+              },
+              {
+                "label": "Finance",
+                "value": {
+                  "input": {
+                    "text": "sector"
+                  }
+                }
+              }
+            ],
+            "preference": "button",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1593330898861",
+      "disabled": true,
+      "conditions": "#email_address",
+      "dialog_node": "response_4_1593338095609",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": " job career opportunity for sector 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Now tell me about your skills for @sector_1\n1. R Programming \n2. Hadoop Platform\n3. Data Visualization"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593330898861",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@sector_1",
+      "dialog_node": "node_9_1593418352863"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "please provide year of experience!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1593886550064",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1593886550080",
+      "previous_sibling": "handler_8_1593886550080"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1593886550064",
+      "context": {
+        "time_1": "@time_1"
+      },
+      "conditions": "@time_1",
+      "event_name": "input",
+      "dialog_node": "handler_8_1593886550080"
+    },
+    {
+      "type": "standard",
+      "title": "for sector_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok! Do you have any industrial experience ? If yes, please mention year of experience?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593887761541",
+      "conditions": "@skill_sector2_3 || @skill_sector2_4 || @skill_sector2_5",
+      "dialog_node": "node_1_1593888178446"
+    },
+    {
+      "type": "standard",
+      "title": "says 1 year",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok! I would like to ask which of the highest education level you have completed?\n1. Master of Engineering\n2. PhD (postgraduate)\n3. Second University Degree (Master's)\n\nIf none, please reply \"no\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593860058917",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@time_1 || #no_input || @no",
+      "dialog_node": "node_4_1593874284034",
+      "previous_sibling": "node_7_1593886323987"
+    },
+    {
+      "type": "standard",
+      "title": "says 2 year",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Got it! Thank you for your interest and for providing us with information about you. we will inform our recruiters.\n\"Please fill the application form by clicking side tab.\"\n\nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593860058917",
+      "conditions": "@time_2",
+      "dialog_node": "node_7_1593886323987"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "please provide year of experience!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1593888178452",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1593888178452",
+      "previous_sibling": "handler_5_1593888178452"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1593888178452",
+      "context": {
+        "time_1": "@time_1"
+      },
+      "conditions": "@time_1",
+      "event_name": "input",
+      "dialog_node": "handler_5_1593888178452"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1592987938679",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592987938693",
+      "previous_sibling": "handler_5_1592987938693"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1592987938679",
+      "context": {
+        "no_input": "#no_input"
+      },
+      "conditions": "#no_input",
+      "event_name": "input",
+      "dialog_node": "handler_5_1592987938693"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_12_1593917094844",
+      "variable": "$time_1",
+      "dialog_node": "slot_14_1593917094844",
+      "previous_sibling": "response_18_1593917094844"
+    },
+    {
+      "type": "standard",
+      "title": "no match",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! we are hiring more skilled person. Thank you for your interest and for providing us with information about you.\n\nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1593917094844",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_3_1593918476897",
+      "previous_sibling": "node_6_1593439901741"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1593917094844",
+      "disabled": true,
+      "dialog_node": "response_18_1593917094844",
+      "previous_sibling": "response_17_1593917094844"
+    },
+    {
+      "type": "standard",
+      "title": "education",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Got it! Thank you for your interest and for providing us with information about you. we will inform our recruiters.\n\"Please fill the application form by clicking side tab.\"\n\nReply \"ok\" to restart this session."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1593917094844",
+      "conditions": "#education || @high_education",
+      "dialog_node": "node_6_1593439901741",
+      "previous_sibling": "slot_14_1593917094844"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you! we will reach you out."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1593917094844",
+      "disabled": true,
+      "conditions": "@time_1",
+      "dialog_node": "response_17_1593917094844"
+    },
+    {
+      "type": "standard",
+      "title": "for sector_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok! Do you have any industrial experience ? If yes, please mention year of experience?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1593888569678",
+      "conditions": "@skill_sector3_1 || @skill_sector3_2 || @skill_sector3_3",
+      "dialog_node": "node_11_1593917094839"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "please provide year of experience!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_14_1593917094844",
+      "event_name": "focus",
+      "dialog_node": "handler_16_1593917094844",
+      "previous_sibling": "handler_15_1593917094844"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1593917094844",
+      "context": {
+        "time_1": "@time_1"
+      },
+      "conditions": "@time_1",
+      "event_name": "input",
+      "dialog_node": "handler_15_1593917094844"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            " kindly provide your email address."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1593334570380",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1593334570393",
+      "previous_sibling": "handler_8_1593334570393"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1593334570380",
+      "context": {
+        "correct_email": "@correct_email"
+      },
+      "conditions": "@correct_email",
+      "event_name": "input",
+      "dialog_node": "handler_8_1593334570393"
+    },
+    {
+      "type": "standard",
+      "title": "starting with",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's great connecting with you. Please type in which Domain are you currently seeking  your job career ?\n\n1. Data Scientist\n2. Full Stack Developer\n3. Software Developer "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1593330898861",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "welcome || #ok",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "2345"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "AI Recruiter for IBM 2020",
+  "language": "en",
+  "description": "Shortlist a Suitable candidate for specific Job Role."
+}
