@@ -7,7 +7,7 @@ screens the candidate application, shortlists for interviews and
 identifies his skills and personality traits through conversation and to make the system which will communicate well with all their
 candidates shortlists for interview and identify his skills & personality
 traits through conversation, making job easier for HR. 
-#### "I am using IBM Watson Assistant service for recruiter chat bot. In that, i created skill which will do my task as an AI recruiter."
+#### "Using IBM Watson Assistant service for recruiter chat bot. In that, created skill which will do my task as an AI recruiter."
 
 
 ## File contains:- 
